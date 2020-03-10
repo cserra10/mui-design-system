@@ -1,0 +1,28 @@
+{
+  "name": "@mds/themes",
+  "version": "0.0.1",
+  "description": "> TODO: description",
+  "author": "Cesar <cesar.serrano@bestday.com>",
+  "homepage": "https://github.com/cserra10/mui-design-system#readme",
+  "license": "ISC",
+  "main": "build/index.js",
+  "module": "build/index.es.js",
+  "files": [
+    "build"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cserra10/mui-design-system.git"
+  },
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "devDependencies": {
+    "rollup": "^2.0.2",
+    "rollup-plugin-typescript2": "^0.26.0",
+    "typescript": "^3.8.3"
+  }
+}

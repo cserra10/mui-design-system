@@ -1,0 +1,27 @@
+{
+  "name": "@mds/storybook",
+  "version": "0.0.1",
+  "description": "Storybook instance",
+  "author": "Cesar <cesr90@gmail.com>",
+  "homepage": "https://github.com/cserra10/mui-design-system#readme",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cserra10/mui-design-system.git"
+  },
+  "scripts": {
+    "start": "start-storybook"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "@mds/ui": "0.0.1",
+    "@mds/themes": "0.0.1",
+    "@babel/core": "^7.8.7",
+    "@storybook/addons": "^5.3.14",
+    "@storybook/react": "^5.3.14",
+    "babel-loader": "^8.0.6"
+  }
+}
