@@ -10,7 +10,7 @@
     "url": "git+https://github.com/cserra10/mui-design-system.git"
   },
   "scripts": {
-    "start": "start-storybook"
+    "start": "start-storybook -p 9001"
   },
   "dependencies": {
   },
