@@ -38,7 +38,7 @@ export function groupBy<T, K>(list: T[], getKey: (item: T) => K) {
 
 export function combineStyles(...styles) {
   return function CombineStyles(theme) {
-    const outStyles = styles.map(arg => {
+    const outStyles = styles.map((arg = {}) => {
       // Apply the "theme" object for style functions.
       if (typeof arg === 'function') {
         return arg(theme)

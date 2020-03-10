@@ -33,5 +33,9 @@ export default (theme: Theme) => {
     }
   }) as StylesAPI
 
-  return combineStyles(defaultStyles, {})(theme)
+
+  // @ts-ignore
+  console.log(theme)
+  // @ts-ignore
+  return combineStyles(defaultStyles, theme.styles['common/Stepper'])(theme)
 }

@@ -1,7 +1,7 @@
-import Button from './core/Button'
-import HotelSearchBox from './searchBox/HotelSearchBox';
+import Stepper from './common/Stepper'
+import HotelSearchBox from './searchBox/HotelSearchBox'
 
 export default {
-  'core/Button': Button,
+  'common/Stepper': Stepper,
   'search/HotelSearchBox': HotelSearchBox
 }

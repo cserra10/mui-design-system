@@ -1,9 +1,8 @@
-import * as styles from './styles'
+import bestday from '../bestday'
 
-export default  {
+export default {
+  ...bestday,
   palette: {
     type: 'dark'
-  },
-
-  styles
+  }
 }
